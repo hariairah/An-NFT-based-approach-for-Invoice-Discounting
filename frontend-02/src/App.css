@@ -1,0 +1,653 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans Variable', sans-serif;
+
+}
+.main-container {
+  display: flex;
+  background: #04062D;
+  max-width: 100%;
+  max-height: 100vh;
+}
+.main-content {
+  overflow: auto;
+  flex: 4.2;
+}
+.title {
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+}
+.sidebar{
+  background-color: #0d073ab2 !important;
+  background: transparent;
+  color: white;
+  height: 100vh;
+  flex: 0.8;
+  max-height: 100vh;
+  overflow-x: visible;
+  width: 180px; /* Initial width when open */
+  min-width: 60px; /* Minimum width to prevent it from becoming too narrow */
+  transition: width 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.845);
+}
+.routes{
+  color: white;
+  padding: 10px;
+  line-height: 40px;
+}
+.bars {
+  width: 27px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.845);
+}
+.top-section{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 1px;
+  margin-top: 10px;
+}
+.logo{
+  font-size: 15px;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+.logo-bars {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust this value as needed */
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+
+.link{
+  display: flex;
+  color: white;
+  gap: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735,0.845);
+}
+.link:hover{
+  border-right: 4px solid white;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735,0.845);
+  background-color: rgb(45, 51, 89) !important;
+}
+.link_text{
+  background: transparent;
+  line-height: 2em;
+}
+.icon{
+  background: transparent;
+}
+.home-div{
+  position: absolute;
+  margin: 0;
+  width: 100%;
+}
+.banner-img{
+  max-width: 100%;
+}
+.banner-img:hover {
+  transform: scale(1); /* Reset the scale on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.seller-address{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  max-width: 8em;
+}
+.top-bar{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  top: 3em;
+  margin-left: 5%;
+  width: 90%;
+  height: 5em;
+  display: flex;
+}
+.logo-home{
+  width: 3rem;
+  height: 3em;
+  margin-top: 0.9em;
+  margin-bottom: 0.9em;
+  margin-left: 3em;
+  background: transparent;
+}
+.website-name{
+  font-size: 1.5em;
+  margin-top: 1.15em;
+  margin-bottom: 1.15em;
+  margin-left: 1.25em;
+  font-weight: 900;
+  text-decoration: none;
+  font-family:  Arial, Helvetica, sans-serif;
+  background: -webkit-linear-gradient(#64CCC5, #176B87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact-us{
+  text-decoration: none;
+  background: -webkit-linear-gradient(#64CCC5, #176B87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.3em;
+  margin-top: 1.35em;
+  margin-bottom: 1.35em;
+  margin-left: 28em;
+  font-weight: 700;
+}
+.banner-text{
+  position: absolute;
+
+  
+  top: 17em;
+  margin-left: 10%;
+  font-size: 1em;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background: transparent;
+}
+.heading{
+  background: transparent;
+}
+.para1{
+  margin-top: 1em;
+  font-size: 1.5em;
+  background: transparent;
+}
+.para2{
+  font-size: 1.5em;
+  background: transparent;
+}
+.get-started{
+  text-decoration: none;
+  color: white;
+  font-size: 1.7em;
+  margin-top: 13%;
+  align-items: center;
+  background: transparent;
+}
+.gs-button{
+  color: #176B87;
+  text-transform: uppercase;
+  padding: 0.5em;
+  background:  rgba(0, 0, 0, 0.7);
+  border: 4px solid #176B87;
+  border-radius: 6px;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  background: transparent;
+  background: -webkit-linear-gradient(#64CCC5, #176B87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gs-button:hover{
+  border-radius: 50px;
+  color: white !important;
+  background: -webkit-linear-gradient(white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-color: white !important;
+  transition: all 0.3s ease 0s;
+}
+.middle{
+  display: flex;
+  background-color: white !important;
+}
+.middle-text-container1{
+  background: transparent;
+  background-color: white;
+}
+.middle-left{
+  flex: 1;
+  margin-left: 2em;
+  margin-top: 7em;
+  font-size: 1.75em;
+  font-weight: 600;
+  color: #04062D;
+  background: transparent;
+  background-color: white !important;
+}
+.typed-text{
+  color: #54aea8;
+  background: transparent;
+  background-color: white;
+}
+.cursor{
+  color: gray !important;
+  background: transparent;
+  background-color: rgb(162, 162, 162);
+}
+.middle-right{
+  flex: 1;
+  width: 40vw; /* Adjust the width as needed */
+  color: #010920;
+  opacity: 0.9;
+  font-weight: 700;
+  background-color: #54aea8;
+  margin-right: 3em;
+  margin-bottom: 7em;
+  padding-bottom: 2em;
+  margin-top: 7em;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.how{
+  margin-bottom: 1em;
+  background: transparent;
+}
+.how1{
+  background: transparent;
+}
+.footer {
+  display: flex;
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+  background: #010920 !important;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  color: white;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 2em 2em;
+  background: transparent;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1; /* Distribute available space equally among items */
+}
+.footer-center{
+  font-size: 0.75em;
+  justify-content: space-between;
+}
+.details1, .details2,.details3{
+  margin-bottom: 1.5em;
+  display: flex;
+  align-items: center;
+}
+.details1 p, .details2 p, .details3 p{
+  margin-left: 0.75em;
+  color:white !important;
+}
+.company-name{
+  text-decoration: none;
+  color:white !important;
+}
+.copyright{
+  font-size: 0.5em;
+  margin-top: 1em;
+}
+.icon1, .icon2, .icon3{
+  color: #64CCC5;
+}
+.footer-right {
+  font-size: 0.75em;
+  text-align: left; /* Align the content to the right in the right section */
+  color: white;
+}
+.github-icon{
+  color: white;
+}
+.footer-icons{
+  text-align: center;
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+.about-us{
+  margin-bottom: 1em;
+  color: #64CCC5 !important;
+}
+.invest-div{
+  color: white;
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 100%;
+}
+.invoice-container{
+
+}
+.portfolio-div{
+  color: white;
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 100%;
+}
+.sell-div{
+  color: white;
+  margin-top: 2em;
+  margin-left: 2em;
+  max-width: 90%; /* Set a maximum width (adjust as needed) */
+}
+.invoice-details {
+  margin-right: 1%;
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: flex-start; /* Align items to the start (left) of the container */
+}
+
+.upload-invoice{
+  background: rgba(217, 217, 217, 0.1) !important;
+  margin-top: 2em;
+  padding-bottom: 2em;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.dropbox{
+  margin-top: 5%;
+  background: transparent !important;
+}
+.choose-file{
+  align-items: center;
+  text-align: center;
+  margin-left: 15%;
+  margin-top: 3%;
+  background: transparent !important;
+}
+.enter-details{
+  margin-top: 3em;
+  text-align: center;
+  width: 100%;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row; /* Display the label and input in a row */
+  margin-bottom: 1.2rem;
+}
+
+.form-label {
+  font-size: 1rem;
+  margin: 0.5rem;
+  text-align: left; /* Align the label text to the left */
+  width: 30%; /* Adjust the width as needed */
+}
+
+.form-input {
+  padding: 0.35rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  width: 70%; /* Adjust the width as needed */
+}
+
+.sell-invoice-button {
+  /* Your base button styles here */
+  padding: 10px;
+  margin-top: 2em;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.845);
+}
+
+.sell-invoice-button:hover {
+  background-color: rgba(217, 217, 217, 0.1);
+  color: white;
+}
+
+.button-disabled {
+  /* Your disabled button styles here */
+  background-color: #ccc; /* Change to your desired background color for disabled state */
+  cursor: not-allowed;
+  color: #999; /* Change to your desired text color for disabled state */
+}
+
+.button-disabled:hover {
+  background-color: #ccc; /* Preserve disabled background color on hover */
+  color: #999; /* Preserve disabled text color on hover */
+}
+.settings-div{
+  color: white;
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 100%;
+}
+
+.console-messages{
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.ipfs-link{
+  max-width: 21em;
+  color: white;
+  
+}
+@media (max-width: 768px) {
+  .sell-div {
+    margin: 10% auto; /* Center horizontally on small screens */
+    padding: 1em; /* Add some padding for spacing */
+  }
+
+  .enter-details {
+    width: 100%; /* Adjust width for small screens */
+  }
+
+  .sell-invoice-button {
+    margin-top: 1rem; /* Adjust spacing for small screens */
+  }
+
+  .console-messages {
+    margin-top: 1rem; /* Adjust spacing for small screens */
+  }
+
+  .ipfs-link {
+    max-width: 21em; /* Keep the maximum width */
+  }
+}
+.unsigned-div{
+    color: white;
+    margin-top: 2em;
+    margin-left: 2em;
+    max-width: 90%; /* Set a maximum width (adjust as needed) */
+}
+.unsigned-tokens{
+  display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    gap: 1em; /* Adjust the gap between tokens */
+}
+.unsigned-invoice{
+  background-color: white;
+  color: pink;
+}
+.signer-address{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  max-width: 8em;
+}
+.connect-button{
+  background-color: white;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.845);
+}
+
+.connect-button:hover {
+  background-color: rgba(217, 217, 217, 0.1);
+  color: white;
+}
+
+.token-container{
+  background-color: rgb(6, 22, 74);
+  flex-basis: 33.33333%; /* Distribute available space equally among tokens */
+  padding: 1em; /* Add spacing around each token */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 3em;
+}
+
+.view-details{
+  background-color: white;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  transition: background-color 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.845);
+}
+.sign-invoice{
+  background-color: white;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  transition: background-color 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.845);
+}
+.buyer-token, .seller-token, .currentprice-token, .duedate-token, .amount-token, .token-uri, .forsale-token, .isapproved-token{
+  background: inherit;
+  color: white;
+  padding: 0.5em;
+}
+.tokenid{
+  background: inherit;
+}
+.token-uri{
+  text-align: center;
+  align-items: center;
+}
+.token-details{
+  background: transparent;
+}
+.view-details:hover {
+  background-color: rgba(217, 217, 217, 0.1);
+  color: white;
+}
+.sign-invoice:hover {
+    background-color: rgba(217, 217, 217, 0.1);
+    color: white;
+}
+.invest-div{
+  color: white;
+  margin-top: 2em;
+  margin-left: 2em;
+  max-width: 90%; /* Set a maximum width (adjust as needed) */
+}
+.tokensale-container{
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  gap: 1em; /* Adjust the gap between tokens */
+  padding-bottom: 3em;
+}
+.approve-invoice{
+  background-color: white;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  transition: background-color 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.845);
+}
+.approve-invoice:hover{
+  background-color: rgba(217, 217, 217, 0.1);
+  color: white;
+}
+.financier-address{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  max-width: 8em;
+}
+.buy-invoice{
+  background-color: white;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  transition: background-color 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.845);
+}
+.buy-invoice:hover{
+  background-color: rgba(217, 217, 217, 0.1);
+  color: white;
+}
+.token-owner{
+  color: white;
+  text-decoration: none;
+  margin-top: 0.75em;
+  margin-left: 0.4em;
+  margin-bottom: 0.25em;
+}
+.popup-sell {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  color:rgb(6, 22, 74);
+  font-weight: 700;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.popup-sell p {
+  margin-bottom: 20px;
+}
+
+.popup-buttons-one {
+  padding: 8px 15px;
+  background-color: #28a745 !important;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  margin: 0 5px;
+}
+
+.popup-buttons-two {
+  padding: 8px 15px;
+  background-color: #dc3545;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  margin: 0 5px;
+}
+.warning{
+  color: red;
+}
+

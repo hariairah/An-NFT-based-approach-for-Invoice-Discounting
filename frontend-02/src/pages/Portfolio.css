@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(22, 6, 86);
+}
+.heading{
+    color: rgb(250, 247, 247);
+    font-weight: 10000;
+    font-size: 220%;
+}
+.transparencyg{
+    background-color: rgba(4, 233, 80, 0.3);
+    border-radius: 20px;
+    font-weight: bold;
+    width:1200px;
+    height: 620px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.transparencyr{
+    background-color: rgba(245, 24, 4, 0.3);
+    border-radius: 20px;
+    font-weight: bold;
+    width:1200px;
+    height: 620px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+td.info{
+    color: rgb(240, 236, 236);
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 5px;
+}
+.head{
+    color: white;
+    font-weight: 10000;
+    font-size: 320%;
+}
+.ima{
+    width: 450px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.big{
+    display: inline-block;
+    width: 50%;
+}
+.pop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 110%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pop_inner{
+    background-color: rgb(26, 6, 86);
+    border-radius: 10px;
+    padding: 10px;
+    color:rgb(247, 248, 249);
+}
+.yes{
+    margin: 10px;
+    margin-top: 10px;
+    background-color: rgba(22, 6, 86);
+    color: aliceblue;
+    border-radius: 10px;
+    width: 110px;
+    height: 40px;
+    font-weight: bold;
+    border-color: aliceblue;
+}
+.yes:hover{
+    margin: 10px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    color: rgba(22, 6, 86);
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    border-color: rgba(22, 6, 86);
+}
+.yt{
+    color: aliceblue;
+}
+tr.row{
+    background-color:  rgba(15, 231, 87, 0.8);
+    transform: scale(1);
+    font-weight: bold;
+    border-radius: 10px;
+    border-radius: 5px;
+}
+tr.row:hover{
+    background-color: rgba(97, 238, 97);
+    transform: scale(1.1);
+    font-weight: bold;
+    border-radius: 10px;
+    border-radius: 5px;
+}
+tr.rowr{
+    background-color: rgba(247, 84, 84,0.8);
+    transform: scale(1);
+}
+tr.rowr:hover{
+    background-color: rgba(247, 84, 84);
+    transform: scale(1.1);
+}
+.button{
+    text-decoration: none;
+    color: aliceblue;
+}
+.inner{
+    background-color: rgb(26, 6, 86);
+    border-radius: 10px;
+    padding: 10px;
+    width:450px;
+    color: aliceblue;
+}
+tr.hist{
+    background-color: rgb(26, 6, 86);
+    color: aliceblue;
+    font-weight: bold;
+}
+tr.hist:hover{
+    background-color: aliceblue;
+    color: rgb(26, 6, 86);
+    transform: scale(1.1);
+}
+.side{
+    display: inline-block;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.data{
+    color: aliceblue;
+    font-weight: bold;
+
+}
+tr:hover{
+    background-color:   white;
+    color: rgba(22, 6, 86);
+    transform: scale(1.1);
+}
+.pending{
+    padding-left:20px ;
+}
+td.hg{
+    height: 60px;
+    width: 280px;
+}

@@ -1,0 +1,110 @@
+.pop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 110%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .pop_inner{
+    background-color: rgba(22, 6, 86);
+    border-radius: 10px;
+    padding: 10px;
+    color:aliceblue;
+  }
+  .setting{
+    background-color: aliceblue;
+    color: rgba(22, 6, 86);
+    width: 700px;
+    padding-left:30px ;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 200px;
+    border-radius: 20px;
+  }
+  .yes{
+    margin: 10px;
+    margin-top: 10px;
+    background-color: rgba(22, 6, 86);
+    color: aliceblue;
+    border-radius: 10px;
+    width: 110px;
+    height: 40px;
+    font-weight: bold;
+    border-color: aliceblue;
+  }
+  .yes:hover{
+    margin: 10px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    color: rgba(22, 6, 86);
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    border-color: rgba(22, 6, 86);
+  }
+  #hdd{
+    color: aliceblue;
+  }
+  .hd{
+    display: inline-block;
+  }
+  #bt{
+    margin-left: 900px;
+    color:aliceblue;
+    background-color: red;
+    border-color: rgb(1, 0, 0);
+    width: 110px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  #bt:hover{
+    margin-left: 900px;
+    color:red;
+    background-color: aliceblue;
+    border-color: red;
+    width: 110px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    transform: scale(1.1);
+
+  }
+  .hd1{
+    padding-left: 200px;
+  }
+  .yes33{
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 200px;
+    background-color: rgba(22, 6, 86);
+    color: aliceblue;
+    border-radius: 10px;
+    width: 110px;
+    height: 40px;
+    font-weight: bold;
+    border-color: aliceblue;
+  }
+  .yes33:hover{
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 200px;
+    background-color: aliceblue;
+    color: rgba(22, 6, 86);
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    border-color: rgba(22, 6, 86);
+  }
+  .rw:hover{
+    background-color: rgba(22, 6, 86);
+    color: aliceblue;
+    transform: scale(1.1);
+  }
