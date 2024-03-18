@@ -7,6 +7,8 @@ Working of our solution to counter double-spending and other security issues:
 - Only when a token has been signed can the seller put this token for sale
 - Any user can then pose as a financier and buy this token if they are interested. Once a token has been bought, ownership gets transferred to this user
 
-![process-flow](https://github.com/hariairah/An-NFT-based-approach-for-Invoice-Discounting/blob/main/process-flow.png)
+<p align="center">
+  <img src="https://github.com/hariairah/An-NFT-based-approach-for-Invoice-Discounting/blob/main/process-flow.png" />
+</p>
 
 Using blockchain and NFTs for invoice discounts makes things safer, more transparent, and easier to check. But making rules and getting everyone to use it might still need some work.
